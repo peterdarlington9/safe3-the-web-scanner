@@ -1,0 +1,7 @@
+<Settings>
+  <threads>10</threads>
+  <depth>7</depth>
+  <regcode></regcode>
+  <diff>10</diff>
+  <timeout>20</timeout>
+</Settings>

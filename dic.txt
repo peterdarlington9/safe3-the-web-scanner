@@ -1,0 +1,7 @@
+phpinfo.php-->www\.php
+test.php-->www\.php
+info.php-->www\.php
+phpMyAdmin/-->phpmyadmin.css\.php
+admin/--><form
+manage/--><form
+server-status-->Server Version:

@@ -1,0 +1,95 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/plain; charset=iso-8859-1">
+<title>Safe3WVS Report</title>
+<style>
+a:link, a:visited { text-decoration: none; color: green }
+a:hover { text-decoration: underline; color: red }
+body { background-color: white; background-image: url('safe3-back.png'); background-repeat: no-repeat;}
+</style>
+</head>
+
+<body>
+
+<div style="width: 60%">
+<span style="float: left; height: 190px; width: 350px"></span>
+
+<font face="arial,helvetica" size=+0>
+<b>Safe3 Web Vul Scanner Report</b>
+<p>
+<font size=-1>
+Generated on: <b>{/DATE}</b><br>
+</font>
+<p>
+<font color="crimson" size=-1>NOTE: Not all of the issues reported necessarily
+correspond to actual security flaws. Findings should be validated
+by manual testing and analysis where appropriate. When in doubt,
+<a href="mailto:safe3q@gmail.com">contact the author</a>.</font>
+<br clear=all>
+
+<hr size=1 color=black>
+<p>
+<font size=-1>
+<div style="border: 1px solid teal; background-color: white">
+<b>Report risk and risk modifier designations:</b>
+<table border=0 >
+<tr>
+<td width=25%>
+<font face="Bitstream Vera Sans Mono,Andale Mono,lucida console" size=-2>
+<span style="border: solid black 1px; background-color: blue; color: white; padding: 0.1em 0.4em 0.1em 0.4em"><b>LOW</b></span>
+to
+<span style="border: solid black 1px; background-color: crimson; color: white; padding: 0.1em 0.4em 0.1em 0.4em"><b>HIGH</b></span>
+</td>
+<td><font size=-1>Issue urgency classification (composite of impact and identification accuracy)</font></td>
+</tr>
+<tr>
+<td width=25%>
+<font face="Bitstream Vera Sans Mono,Andale Mono,lucida console" size=-2>
+<span style="border: solid black 1px; background-color: green; color: white; padding: 0.1em 0.4em 0.1em 0.4em"><b>INFO</b></span>
+</td>
+<td><font size=-1 color="#800080">{/INFO}</font></td>
+</tr>
+<tr>
+<td width=25%>
+<font face="Bitstream Vera Sans Mono,Andale Mono,lucida console" size=-2>
+<span style="border: solid gray 1px; background-color: crimson; color: #ffffff; padding: 0.1em 0.4em 0.1em 0.4em">Sql Injection</span>
+/
+<span style="border: solid gray 1px; background-color: #fffece; color: #A0A080; padding: 0.1em 0.4em 0.1em 0.4em">{/SQL}</span>
+</font>
+</td>
+<td><font size=-1>It is a code injection technique occurring in the database layer of an application.</font></td>
+</tr>
+<tr>
+<td width=25%>
+<font face="Bitstream Vera Sans Mono,Andale Mono,lucida console" size=-2>
+<span style="border: solid gray 1px; background-color: darkmagenta; color: #ffffff; padding: 0.1em 0.4em 0.1em 0.4em">XSS</span>
+/
+<span style="border: solid gray 1px; background-color: #fffece; color: #A0A080; padding: 0.1em 0.4em 0.1em 0.4em">{/XSS}</span>
+</font>
+</td>
+<td><font size=-1>Malicious script can get any cookies, session tokens, or other sensitive information</font></td>
+</tr>
+<tr>
+<td>
+<font face="Bitstream Vera Sans Mono,Andale Mono,lucida console" size=-2>
+<span style="border: solid gray 1px; background-color: blue; color: #ffffff; padding: 0.1em 0.4em 0.1em 0.4em">Other</span>
+/
+<span style="border: solid gray 1px; background-color: #fffece; color: #A0A080; padding: 0.1em 0.4em 0.1em 0.4em">{/Other}</span>
+</font>
+</td>
+<td><font size=-1>Many possible vulnerabilities</font></td>
+</tr>
+</table>
+</div>
+</font>
+<p>
+<hr size=1 color=black>
+
+<font face="arial,helvetica" size=-1>
+<ul>
+<span id=hid_list$SCNT style="display:inline"><br><font color=green><i>Vulnerabilities</i></font><p></p></span>
+<span id=list$SCNT><ul style="margin-top: 0px"><font size=-2>
+{/DATA}
+</ul>
+</span>
+</ul></div></body></html>
